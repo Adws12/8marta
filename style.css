@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #f6d365);
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+#main-screen, #game-screen, #result-screen {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #ff3b2f;
+}
+
+#game-screen.hidden, #result-screen.hidden {
+    display: none;
+}
+
+#timer {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#question {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#image {
+    max-width: 80%;
+    max-height: 50vh;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#buttons-container button {
+    width: 150px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4caf50;
+}
+
+#buttons-container button:hover {
+    background-color: #45a049;
+}
+
+#score-container {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#result-screen {
+    text-align: center;
+}
+
+#restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart-button:hover {
+    background-color: #ff3b2f;
+}
